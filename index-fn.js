@@ -1,34 +1,33 @@
 // Color space definitions
-import modeA98 from './a98/definition.js';
-import modeCubehelix from './cubehelix/definition.js';
-import modeDlab from './dlab/definition.js';
-import modeDlch from './dlch/definition.js';
-import modeHsi from './hsi/definition.js';
-import modeHsl from './hsl/definition.js';
-import modeHsv from './hsv/definition.js';
-import modeHwb from './hwb/definition.js';
-import modeJab from './jab/definition.js';
-import modeJch from './jch/definition.js';
-import modeLab from './lab/definition.js';
-import modeLab65 from './lab65/definition.js';
-import modeLch from './lch/definition.js';
-import modeLch65 from './lch65/definition.js';
-import modeLchuv from './lchuv/definition.js';
-import modeLrgb from './lrgb/definition.js';
-import modeLuv from './luv/definition.js';
-import modeOkhsl from './okhsl/modeOkhsl.js';
-import modeOkhsv from './okhsv/modeOkhsv.js';
-import modeOklab from './oklab/definition.js';
-import modeOklch from './oklch/definition.js';
-import modeP3 from './p3/definition.js';
-import modeProphoto from './prophoto/definition.js';
-import modeRec2020 from './rec2020/definition.js';
-import modeRgb from './rgb/definition.js';
-import modeXyb from './xyb/definition.js';
-import modeXyz50 from './xyz50/definition.js';
-import modeXyz65 from './xyz65/definition.js';
-import modeYiq from './yiq/definition.js';
-import { useMode } from './modes.js';
+export { default as modeA98 } from './a98/definition.js';
+export { default as modeCubehelix } from './cubehelix/definition.js';
+export { default as modeDlab } from './dlab/definition.js';
+export { default as modeDlch } from './dlch/definition.js';
+export { default as modeHsi } from './hsi/definition.js';
+export { default as modeHsl } from './hsl/definition.js';
+export { default as modeHsv } from './hsv/definition.js';
+export { default as modeHwb } from './hwb/definition.js';
+export { default as modeJab } from './jab/definition.js';
+export { default as modeJch } from './jch/definition.js';
+export { default as modeLab } from './lab/definition.js';
+export { default as modeLab65 } from './lab65/definition.js';
+export { default as modeLch } from './lch/definition.js';
+export { default as modeLch65 } from './lch65/definition.js';
+export { default as modeLchuv } from './lchuv/definition.js';
+export { default as modeLrgb } from './lrgb/definition.js';
+export { default as modeLuv } from './luv/definition.js';
+export { default as modeOkhsl } from './okhsl/modeOkhsl.js';
+export { default as modeOkhsv } from './okhsv/modeOkhsv.js';
+export { default as modeOklab } from './oklab/definition.js';
+export { default as modeOklch } from './oklch/definition.js';
+export { default as modeP3 } from './p3/definition.js';
+export { default as modeProphoto } from './prophoto/definition.js';
+export { default as modeRec2020 } from './rec2020/definition.js';
+export { default as modeRgb } from './rgb/definition.js';
+export { default as modeXyb } from './xyb/definition.js';
+export { default as modeXyz50 } from './xyz50/definition.js';
+export { default as modeXyz65 } from './xyz65/definition.js';
+export { default as modeYiq } from './yiq/definition.js';
 
 export { default as converter } from './converter.js';
 
@@ -207,16 +206,11 @@ export { default as convertRgbToLab } from './lab/convertRgbToLab.js';
 export { default as convertRgbToLab65 } from './lab65/convertRgbToLab65.js';
 export { default as convertRgbToLrgb } from './lrgb/convertRgbToLrgb.js';
 export { default as convertRgbToOklab } from './oklab/convertRgbToOklab.js';
-export { default as convertRgbToXyb } from './xyb/convertRgbToXyb.js';
 export { default as convertRgbToXyz50 } from './xyz50/convertRgbToXyz50.js';
 export { default as convertRgbToXyz65 } from './xyz65/convertRgbToXyz65.js';
 export { default as convertRgbToYiq } from './yiq/convertRgbToYiq.js';
+export { default as convertRgbToXyb } from './xyb/convertRgbToXyb.js';
 export { default as convertXybToRgb } from './xyb/convertXybToRgb.js';
-export { default as convertXyz50ToLab } from './lab/convertXyz50ToLab.js';
-export { default as convertXyz50ToLuv } from './luv/convertXyz50ToLuv.js';
-export { default as convertXyz50ToProphoto } from './prophoto/convertXyz50ToProphoto.js';
-export { default as convertXyz50ToRgb } from './xyz50/convertXyz50ToRgb.js';
-export { default as convertXyz50ToXyz65 } from './xyz65/convertXyz50ToXyz65.js';
 export { default as convertXyz65ToA98 } from './a98/convertXyz65ToA98.js';
 export { default as convertXyz65ToJab } from './jab/convertXyz65ToJab.js';
 export { default as convertXyz65ToLab65 } from './lab65/convertXyz65ToLab65.js';
@@ -224,66 +218,9 @@ export { default as convertXyz65ToP3 } from './p3/convertXyz65ToP3.js';
 export { default as convertXyz65ToRec2020 } from './rec2020/convertXyz65ToRec2020.js';
 export { default as convertXyz65ToRgb } from './xyz65/convertXyz65ToRgb.js';
 export { default as convertXyz65ToXyz50 } from './xyz65/convertXyz65ToXyz50.js';
+export { default as convertXyz50ToLab } from './lab/convertXyz50ToLab.js';
+export { default as convertXyz50ToLuv } from './luv/convertXyz50ToLuv.js';
+export { default as convertXyz50ToProphoto } from './prophoto/convertXyz50ToProphoto.js';
+export { default as convertXyz50ToRgb } from './xyz50/convertXyz50ToRgb.js';
+export { default as convertXyz50ToXyz65 } from './xyz65/convertXyz50ToXyz65.js';
 export { default as convertYiqToRgb } from './yiq/convertYiqToRgb.js';
-
-export {
-	modeA98,
-	modeCubehelix,
-	modeDlab,
-	modeDlch,
-	modeHsi,
-	modeHsl,
-	modeHsv,
-	modeHwb,
-	modeJab,
-	modeJch,
-	modeLab,
-	modeLab65,
-	modeLch,
-	modeLch65,
-	modeLchuv,
-	modeLrgb,
-	modeLuv,
-	modeOkhsl,
-	modeOkhsv,
-	modeOklab,
-	modeOklch,
-	modeP3,
-	modeProphoto,
-	modeRec2020,
-	modeRgb,
-	modeXyb,
-	modeXyz50,
-	modeXyz65,
-	modeYiq
-};
-
-export const a98 = useMode(modeA98);
-export const cubehelix = useMode(modeCubehelix);
-export const dlab = useMode(modeDlab);
-export const dlch = useMode(modeDlch);
-export const hsi = useMode(modeHsi);
-export const hsl = useMode(modeHsl);
-export const hsv = useMode(modeHsv);
-export const hwb = useMode(modeHwb);
-export const jab = useMode(modeJab);
-export const jch = useMode(modeJch);
-export const lab = useMode(modeLab);
-export const lab65 = useMode(modeLab65);
-export const lch = useMode(modeLch);
-export const lch65 = useMode(modeLch65);
-export const lchuv = useMode(modeLchuv);
-export const lrgb = useMode(modeLrgb);
-export const luv = useMode(modeLuv);
-export const okhsl = useMode(modeOkhsl);
-export const okhsv = useMode(modeOkhsv);
-export const oklab = useMode(modeOklab);
-export const oklch = useMode(modeOklch);
-export const p3 = useMode(modeP3);
-export const prophoto = useMode(modeProphoto);
-export const rec2020 = useMode(modeRec2020);
-export const rgb = useMode(modeRgb);
-export const xyb = useMode(modeXyb);
-export const xyz50 = useMode(modeXyz50);
-export const xyz65 = useMode(modeXyz65);
-export const yiq = useMode(modeYiq);
